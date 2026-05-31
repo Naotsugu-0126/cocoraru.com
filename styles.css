@@ -873,6 +873,23 @@ h3 {
   font-size: 13px;
 }
 
+.footer-tagline,
+.footer-address {
+  display: grid;
+  gap: 4px;
+  justify-items: center;
+  margin: 10px 0 0;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 1.75;
+}
+
+.footer-tagline span,
+.footer-address span,
+.footer-address a {
+  display: block;
+}
+
 .site-footer a {
   color: var(--white);
 }
