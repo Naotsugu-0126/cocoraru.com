@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="cocoraru">
+  <rect width="64" height="64" rx="32" fill="#6c7357"/>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="#fffdf8" stroke-width="3"/>
+  <path d="M31 45c-4-10-3-20 4-30" fill="none" stroke="#fffdf8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M35 27c8-1 13-6 15-13-8 0-14 4-17 11" fill="#fffdf8"/>
+  <path d="M29 35c-7 0-12-4-15-10 7-1 13 2 17 8" fill="#fffdf8"/>
+</svg>
