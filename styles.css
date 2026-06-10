@@ -562,6 +562,99 @@ h3 {
   margin: 6px 0 0;
 }
 
+.subpage-main {
+  padding-top: var(--header-height);
+}
+
+.reservation-hero {
+  color: var(--white);
+  background:
+    linear-gradient(135deg, rgba(39, 43, 36, 0.9), rgba(79, 87, 63, 0.72)),
+    url("./assets/feature-private.jpg") center / cover;
+}
+
+.reservation-hero .section-inner {
+  min-height: 430px;
+  display: grid;
+  align-content: center;
+}
+
+.reservation-hero h1 {
+  max-width: 720px;
+  font-size: 46px;
+}
+
+.reservation-hero p:not(.section-kicker) {
+  max-width: 640px;
+  margin: 18px 0 0;
+  color: rgba(255, 253, 248, 0.86);
+}
+
+.reservation-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.reservation-actions .btn-outline {
+  color: var(--white);
+}
+
+.reservation-guide {
+  background: var(--white);
+}
+
+.reservation-guide .section-heading p:not(.section-kicker) {
+  max-width: 650px;
+  margin: 14px auto 0;
+  color: var(--muted);
+}
+
+.change-options {
+  background: var(--paper);
+}
+
+.reservation-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.reservation-card {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.reservation-card span {
+  color: var(--rose);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.reservation-card h3 {
+  margin-top: 10px;
+  color: var(--sage-dark);
+}
+
+.reservation-card p {
+  margin: 12px 0 22px;
+  color: var(--muted);
+}
+
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: auto;
+}
+
 .coupon {
   color: var(--white);
   background:
@@ -1056,6 +1149,7 @@ h3 {
   .concern-grid,
   .product-grid,
   .coupon-grid,
+  .reservation-card-grid,
   .voice-grid {
     grid-template-columns: 1fr;
   }
@@ -1082,6 +1176,20 @@ h3 {
   }
 
   .coupon-cta {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .reservation-hero .section-inner {
+    min-height: 390px;
+  }
+
+  .reservation-hero h1 {
+    font-size: 32px;
+  }
+
+  .reservation-actions,
+  .card-actions {
     display: grid;
     grid-template-columns: 1fr;
   }
